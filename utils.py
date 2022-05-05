@@ -1,4 +1,3 @@
-from torch.nn.modules.loss import _Loss
 import segmentation_models_pytorch as sm
 import torch
 import torch.nn.functional as F
@@ -10,10 +9,10 @@ import cv2
 
 
 
-
 class DiceScore(nn.Module):
     
-    #from segmentation_models torch belt source code
+    #https://kornia.readthedocs.io/en/v0.1.2/_modules/torchgeometry/losses/dice.html
+    
     
     def __init__(self,eps = 1e-6,loss=False) -> None:
         super(DiceScore, self).__init__()
@@ -53,8 +52,6 @@ class DiceScore(nn.Module):
         dice_score = 2. * intersection / (cardinality + self.eps)
         return torch.mean(1. - dice_score) if self.loss else torch.mean(dice_score)
    
-    
-    
     
 def get_train_transforms()->transforms:
     train_transform =  A.Compose([
