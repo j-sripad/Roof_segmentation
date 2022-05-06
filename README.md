@@ -17,4 +17,4 @@ First run the following notebook
 
 - Training.ipynb : Contains data preprocessing and training code. 
 - Inference.ipynb : Contains code to perform inference on the test data and calculate dice score
-- 
+- metrics.ipynb
