@@ -2,6 +2,11 @@
 
 This repository contains code for project "Roof Segmentation from Aerial Imagery", submitted as final project for CSCI-B657 course.
 
+Team members :
+ - Sripad Joshi (joshisri)
+ - Srimanth Agastyraju (sragas)
+ - Himani Shah (shahhi)
+ - Karan Acharya (karachar)
 
 ## Dataset 
 [Aerial Imagery for Roof Segmentation](https://www.airs-dataset.com)
