@@ -20,4 +20,4 @@ Run the notebooks in the following order
 - metrics.ipynb  : This notebook plots loss curves and dice score curves for training and validation set.
 
 
-** Parts of codes in this repository is re-used from a previous project one of the team member worked on. The repository of the said project is - https://github.com/j-sripad/colon_crypt_segmentation
+Parts of codes in this repository are inspired from a previous project one of our team member (Sripad). The said project is not submitted as assignment/project to any of the courses at Indiana University or elsewhere and was for an assessment test the team member gave for a research assistantship at CNS at IU . The repository of the said project is - https://github.com/j-sripad/colon_crypt_segmentation .
