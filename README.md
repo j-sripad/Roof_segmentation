@@ -15,4 +15,6 @@ pip3 install -r roof_segmentation.txt
 
 First run the following notebook
 
-- Training.ipynb : Contains data preprocessing and 
+- Training.ipynb : Contains data preprocessing and training code. 
+- Inference.ipynb : Contains code to perform inference on the test data and calculate dice score
+- 
