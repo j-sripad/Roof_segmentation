@@ -10,8 +10,7 @@ This repository contains code for project "Roof Segmentation from Aerial Imagery
 
 Install dependencies 
 ```
-pip3 install -r 
-
+pip3 install -r roof_segmentation.txt
 ```
 
 First run the following notebook
