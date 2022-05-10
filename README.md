@@ -1,6 +1,6 @@
 # Roof Segmentation from Aerial Imagery
 
-This repository contains code for project "Roof Segmentation from Aerial Imagery", submitted as final project for CSCI-B657 course.
+This repository contains code for project "Roof Segmentation from Aerial Imagery", submitted as final project for CSCI-B657(Computer Vision) course.
 
 Team members :
  - Sripad Joshi (joshisri)
